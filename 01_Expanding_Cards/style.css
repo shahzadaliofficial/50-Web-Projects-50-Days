@@ -1,0 +1,31 @@
+.body{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container{
+    height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 100px;
+}
+.cards{
+    display:flex;
+    width: 80px;
+    justify-content: start;
+    align-items: end;
+    border-radius: 80px;
+    padding: 25px;
+ }
+
+ h3{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+
+ .active{
+    width: 70%;
+ }
