@@ -1,0 +1,79 @@
+body{
+    background: #ffffff;
+    color: rgb(97, 94, 94);
+    /* font-family:'Times New Roman'; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+button{
+    color: white;
+    background-color: rgb(10, 141, 248);
+    margin: 10px;
+    padding: 12px 30px 12px 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+
+button:hover{
+    background-color: white;
+    color: rgb(10, 141, 248);
+    border: 2px solid rgb(10, 141, 248);
+}
+
+button:disabled, .disabled{
+    background-color: rgb(66,65, 65);
+}
+button:disabled:hover{
+        background-color: rgb(66, 65, 65);;
+        color:  white;
+        border: 2px solid white;
+}
+
+.step{
+    /* margin: 50px; */
+    padding: 10px 21px 10px 21px;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 90px;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.line{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    width: 80px;
+    padding: 1px;
+}
+
+.active{
+    color: rgb(255, 2, 2);
+    transition: color 2s ease-in;
+    
+}
+.active-line {
+border-color: rgb(255, 2, 2);
+background-color: red;
+
+transition: border-color 0.5s ease-in, background-color 1.5s ease-in;
+
+}
